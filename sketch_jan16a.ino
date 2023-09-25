@@ -1,6 +1,4 @@
 #include <Wire.h>
-//#include <LiquidCrystal_I2C.h>
-//LiquidCrystal_I2C lcd(0x3F, 16, 2);
 const int buttonPin1 = 2;   //Номер пина кнопки 1
 const int buttonPin2 = 3;   //Номер пина кнопки 2
 const int buttonPin3 = 4;   //Номер пина кнопки 3
@@ -59,16 +57,6 @@ void PumpOff()
 }
 
 void setup() {
-  // put your setup code here, to run once:
-  //________________________
-  //Serial.begin(9600);
-  // Настройка экрана
- /* lcd.begin();
-  lcd.backlight();
-  lcd.print("MNAKA!!!");
-  lcd.setCursor(5, 1);
-  lcd.print("LUBLU TEBA!");
- */ 
   //________________________
   // Настройка кнопки
   pinMode(ledPin, OUTPUT); //Выход на пин светодиода
