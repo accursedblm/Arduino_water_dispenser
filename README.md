@@ -18,4 +18,4 @@
 Кнопка 3 - Включает насос. Насос работает пока не наберется 1000мл воды, 
            далее выключается. На каждое повторное нажатие к дозе прибавляется 200мл.
 
-![Иллюстрация к проекту](https://github.com/accursedblm/Arduino_water_dispenser/raw/main/image/img1.jpg)
+![Иллюстрация к проекту](https://github.com/accursedblm/Arduino_water_dispenser/blob/main/images/img1.jpg)
